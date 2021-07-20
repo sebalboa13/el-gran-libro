@@ -8,8 +8,15 @@
 </head>
 <body>
     <article>
-        <header>
+        <header id="titulo">
             <h1>Titilo de la pagina</h1>
+                <nav>
+                    <a href="mas/contacto.html" target="_blank">Contacto</a>
+                </nav>
+                <nav>
+                    <a href="id.html" target="_blank">id</a>
+                </nav>
+
             <time datetime="2021-07-08" pubdate>Publicado 19-02-2020</time>
         </header>
         <p>
@@ -18,7 +25,7 @@
     </article>
     <article>
         <pre>
-            <code> <!--esto es un codigo de java random-->
+            <code> <!--esto es un codigo de java random ("code" sirve para incluir un codigo y no pierda su forma original)-->
                 let randomNumber = Math.floor(Math.random() * 100) + 1;
 
                 const guesses = document.querySelector('.guesses');
@@ -33,10 +40,24 @@
             </code>
         </pre>
     </article>
-
+    <section>
+        <p>Articulo</p>
+        <p>Articulo</p>
+        <p>Articulo</p>
+        <p>Articulo</p>
+        <p>Articulo</p>
+        <p>Articulo</p>
+        <p>Articulo</p>
+        <p>Articulo</p>
+        <p>Articulo</p>
+        <p>Articulo</p>
+        <p>Articulo</p>
+        <p><a href="#titulo">Volver</a></p><!--Poniendo el id en el header podemos vincularlo para regresar a ese punto de la pagina-->
+    </section>
 
     <footer>
         <address>Mi casa, Chile</address>
+        <a href="mailto:sebastianbalboa13@gmail.com">Mandame un mail</a> <!--La palabra "mailto" es para poder poner un correo o numero de telefono y que el ordenador determine la app para ejecutarlo-->
         <small>&copy; Esta wea es mia Y ERA</small>
     </footer>
 </body>
